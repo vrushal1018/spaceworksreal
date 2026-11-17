@@ -22,8 +22,28 @@ const SITE = process.env.NEXT_PUBLIC_SITE_URL || "https://inaspaceworks.com";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE),
   title: { default: "Ina SpaceWorks", template: "%s · Ina SpaceWorks" },
-  description: "Design-led interiors for workplaces and commercial spaces, with engineers in the family. An interior vertical of Ina TechFM.",
-  openGraph: { siteName: "Ina SpaceWorks", type: "website", locale: "en_IN" },
+  description: "Design-led interiors for workplaces and commercial spaces, with engineers in the family.",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/icon-48.png", sizes: "48x48", type: "image/png" },
+      { url: "/icon-96.png", sizes: "96x96", type: "image/png" },
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico",
+  },
+  openGraph: {
+    title: "Ina SpaceWorks",
+    siteName: "Ina SpaceWorks",
+    type: "website",
+    locale: "en_IN",
+    description: "Design-led interiors for workplaces and commercial spaces, with engineers in the family.",
+  },
 };
 export const viewport: Viewport = { themeColor: "#F4F2EE", viewportFit: "cover" };
 

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Ina SpaceWorks is the interiors vertical of Ina TechFM: designers, 3D artists, project coordinators, site supervisors and a quantity surveyor, with MEPF engineers in the family.",
+  description: "Ina SpaceWorks: designers, 3D artists, project coordinators, site supervisors and a quantity surveyor, with MEPF engineers in the family.",
 };
 
 export default function Page() {
