@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import JWMarriottSlideshow from "@/components/JWMarriottSlideshow";
 import BYKSlideshow from "@/components/BYKSlideshow";
 import AxisSlideshow from "@/components/AxisSlideshow";
-import HuntsmanSlideshow from "@/components/HuntsmanSlideshow";
+import ChaplotCapitalSlideshow from "@/components/ChaplotCapitalSlideshow";
 
 export const metadata: Metadata = {
   title: "Work",
@@ -19,7 +19,7 @@ export default function Page() {
         <figure className="g1"><JWMarriottSlideshow /><figcaption><b>JW Marriott, Kolkata</b><span>[Scope] · [Year]</span></figcaption></figure>
         <figure className="g2"><BYKSlideshow /><figcaption><b>BYK</b><span>[Scope] · [City]</span></figcaption></figure>
         <figure className="g3"><AxisSlideshow /><figcaption><b>Axis Electricals</b><span>[Scope] · [City]</span></figcaption></figure>
-        <figure className="g4"><HuntsmanSlideshow /><figcaption><b>Huntsman</b><span>[Scope] · [City]</span></figcaption></figure>
+        <figure className="g4"><ChaplotCapitalSlideshow /><figcaption><b>Chaplot Capital</b><span>[Scope] · [City]</span></figcaption></figure>
       </div>
       <p className="credit">Delivered by Jaisalil Shilewant, Vice President, Design &amp; Projects, with [previous organisation].</p>
     </div>
